@@ -15,4 +15,16 @@ layout: framework
 	{% if page.widget3.image or page.widget3.video or page.widget3.title %}
 		{% include _frontpage-widget.html widget=page.widget3 %}
 	{% endif %}
+
+    {{ content }}
 </div><!-- /.row -->
+
+<!-- <div class="articles">
+    {% if page.banner == nil %}
+      {% assign banner = page.title %}
+    {% endif %}
+  
+    {{ content }}
+  
+    {% include views/pagination.html %}
+  </div> -->
