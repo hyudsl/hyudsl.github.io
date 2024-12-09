@@ -155,7 +155,7 @@ yat:
 header_pages:
   - index.html
   - peoples.html
-  - archives.html
+  - seminar.html
   # - categories.html
   # - tags.html
   - about.html
