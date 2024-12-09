@@ -847,10 +847,11 @@ a:visited .post-badges .post-badge.badge-new {
   max-width: 62.5rem
 }
 
-.columns {
-  padding-left: 10px;
-  padding-right: 10px;
-  box-sizing: border-box;
+.column,.columns {
+  position: relative;
+  padding-left: .9375rem;
+  padding-right: .9375rem;
+  float: left
 }
 
 .medium-4 {
