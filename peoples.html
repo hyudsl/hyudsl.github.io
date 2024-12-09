@@ -1,5 +1,5 @@
 ---
-layout: people
+layout: default
 title: People
 ---
 
@@ -7,8 +7,11 @@ title: People
 
 <h2>Ph.D students</h2>
 
+{{site.data.people_phd}}
+
 <div class="people-container">
     {% for item in site.data.people_phd %}
+    {{item}}
       <div class="people-item">
         <p>{{ item.name }}</p>
       </div>
