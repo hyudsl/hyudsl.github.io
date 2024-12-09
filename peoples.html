@@ -7,14 +7,17 @@ title: People
 
 <h2>Ph.D students</h2>
 
-{{site.data.people_phd.kyungri}}
-
 <div class="people-container">
-    {% for item in site.data.people_phd %}
+    {% for person in site.data.people_phd %}
       <div class="people-item">
-        <p>{{ item }}</p><br>
-        <p>{{ item['name'] }}</p><br>
-        <p>{{ item.name }}</p>
+        <li class="person">
+            <img src="{{ person.image }}" alt="{{ person.name }}">
+            <div class="info">
+              <h3>{{ person.name }}</h3>
+              <p>Email: {{ person.email }}</p>
+              <p>Interests: {{ person.interests }}</p>
+            </div>
+          </li>
       </div>
     {% endfor %}
   </div>
