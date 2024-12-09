@@ -1,0 +1,11 @@
+kyungri:
+  name: 'Kyungri Park'
+  email: 'qkw1207@gmail.com'
+  interests: 'Computer Vision'
+  image: people/kyungri.jpg
+
+jaeyoung:
+  name: 'Jaeyoung Choe'
+  email: 'cjy9100@hanyang.ac.kr'
+  interests: 'Natural Language Processing'
+  image: people/jaeyoung.jpg

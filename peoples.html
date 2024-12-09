@@ -1,0 +1,19 @@
+---
+layout: people
+title: People
+---
+
+<h2>Professor</h2>
+
+<h2>Ph.D students</h2>
+
+<div class="people-container">
+    {% for item in site.data.people_phd %}
+      <div class="people-item">
+        <p>{{ item.name }}</p>
+      </div>
+    {% endfor %}
+  </div>
+
+
+<h2>Master students</h2>

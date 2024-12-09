@@ -859,3 +859,14 @@ a:visited .post-badges .post-badge.badge-new {
 .medium-4 {
   width: 33.3333333333%
 }
+
+.people-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.people-item {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
