@@ -4,6 +4,10 @@ layout: framework
 ---
 
 <div class="row t60">
+    {% if page.banner == nil %}
+      {% assign banner = page.title %}
+    {% endif %}
+
 	{% if page.widget1.image or page.widget1.video or page.widget1.title %}
 		{% include frontpage-widget.html widget=page.widget1 %}
 	{% endif %}
@@ -17,9 +21,11 @@ layout: framework
 	{% endif %}
 
     {{ content }}
+
+    {% include views/pagination.html %}
 </div>
 
-<div class="articles">
+<!-- <div class="articles">
     {% if page.banner == nil %}
       {% assign banner = page.title %}
     {% endif %}
@@ -27,4 +33,4 @@ layout: framework
     {{ content }}
   
     {% include views/pagination.html %}
-  </div>
+</div> -->
