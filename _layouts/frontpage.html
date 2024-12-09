@@ -13,11 +13,11 @@ layout: framework
 	{% endif %}
 
 	{% if site.data.research_interests['widget2']['image'] or site.data.research_interests['widget2']['video'] or site.data.research_interests['widget2']['title'] %}
-		{% include views/frontpage-widget.html widget=site.data.research_interests['widget2'] %}
+    {% include views/frontpage-widget.html widget=site.data.research_interests.widget2 %}
 	{% endif %}
 
 	{% if site.data.research_interests['widget3']['image'] or site.data.research_interests['widget3']['video'] or site.data.research_interests['widget3']['title'] %}
-		{% include views/frontpage-widget.html widget=site.data.research_interests['widget3'] %}
+    {% include views/frontpage-widget.html widget=site.data.research_interests.widget3 %}
 	{% endif %}
 
     {{ content }}
