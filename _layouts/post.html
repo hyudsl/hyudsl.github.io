@@ -24,6 +24,7 @@ sidebar:
     {%- endif -%}
 
     {%- if page.url -%}
+      {{page}}
       <iframe src={{page.url}} width="800" height="500"></iframe>
     {%- else -%}
       <span></span>
