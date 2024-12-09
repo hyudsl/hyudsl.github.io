@@ -9,15 +9,15 @@ layout: framework
     {% endif %}
 
 	{% if site.data.research_interests['widget1']['image'] or site.data.research_interests['widget1']['video'] or site.data.research_interests['widget1']['title'] %}
-		{% include views/frontpage-widget.html widget=page['widget1'] %}
+		{% include views/frontpage-widget.html widget=site.data.research_interests['widget1'] %}
 	{% endif %}
 
 	{% if site.data.research_interests['widget2']['image'] or site.data.research_interests['widget2']['video'] or site.data.research_interests['widget2']['title'] %}
-		{% include views/frontpage-widget.html widget=page['widget2'] %}
+		{% include views/frontpage-widget.html widget=site.data.research_interests['widget2'] %}
 	{% endif %}
 
 	{% if site.data.research_interests['widget3']['image'] or site.data.research_interests['widget3']['video'] or site.data.research_interests['widget3']['title'] %}
-		{% include views/frontpage-widget.html widget=page['widget3'] %}
+		{% include views/frontpage-widget.html widget=site.data.research_interests['widget3'] %}
 	{% endif %}
 
     {{ content }}
