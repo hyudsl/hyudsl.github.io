@@ -249,3 +249,5 @@ plugins:
   - jekyll-sitemap
   - jekyll-paginate
   - jekyll-spaceship
+
+urlimg: 'https://hyudsl.github.io/homepage/images/'
