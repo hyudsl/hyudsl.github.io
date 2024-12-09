@@ -838,15 +838,6 @@ a:visited .post-badges .post-badge.badge-new {
 .t80 { margin-top: 80px !important; }
 .t90 { margin-top: 90px !important; }
 
-
-/* 부모 컨테이너: flexbox 사용 */
-// .row {
-//   display: flex;
-//   flex-wrap: wrap; /* 줄바꿈 허용 */
-//   margin-left: -10px; /* 열 사이 간격 */
-//   margin-right: -10px;
-// }
-
 .row {
   width: 100%;
   margin-left: auto;
@@ -856,23 +847,13 @@ a:visited .post-badges .post-badge.badge-new {
   max-width: 62.5rem
 }
 
-/* 열(columns) 스타일 */
 .columns {
-  padding-left: 10px; /* 열 사이 간격 */
+  padding-left: 10px;
   padding-right: 10px;
-  box-sizing: border-box; /* 패딩 포함한 크기 계산 */
+  box-sizing: border-box;
 }
 
-/* medium-4: 반응형 설정 */
 .medium-4 {
-  flex: 0 0 33.33%; /* 너비를 33.33%로 설정 */
+  flex: 0 0 33.33%;
   max-width: 33.33%;
 }
-
-/* 작은 화면에서는 열 전체 차지 */
-// @media (max-width: 768px) {
-//   .medium-4 {
-//     flex: 0 0 100%;
-//     max-width: 100%;
-//   }
-// }
