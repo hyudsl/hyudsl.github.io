@@ -155,10 +155,12 @@ yat:
 header_pages:
   - index.html
   - peoples.html
+  - research_interests.html
   - seminar.html
+  - publications.html
   # - categories.html
   # - tags.html
-  - about.html
+  # - about.html
 
 # Page default value
 # defaults:
