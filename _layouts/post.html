@@ -24,12 +24,14 @@ sidebar:
     {%- endif -%}
 
 
-    {{page}}
-    {%- if page.url -%}
-      <iframe src={{page.url}} width="800" height="500"></iframe>
-    {%- else -%}
-      <span></span>
-    {%- endif -%}
+    <div>
+      <p>{{page}}</p>
+      {%- if page.url -%}
+        <iframe src={{page.url}} width="800" height="500"></iframe>
+      {%- else -%}
+        <span></span>
+      {%- endif -%}
+    </div>
 
     {%- include views/article.html -%}
 
