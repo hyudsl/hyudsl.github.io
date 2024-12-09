@@ -32,6 +32,8 @@ sidebar:
       {%- endif -%}
     </div>
 
+    <iframe src={{page.pdf_url}} width="800" height="500"></iframe>
+
     {%- include views/article.html -%}
 
     {%- assign result = hidden | where_exp: "item", "item == 'navigator'" -%}
