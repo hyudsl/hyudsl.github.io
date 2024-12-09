@@ -11,7 +11,7 @@ title: People
     {% for person in site.data.people_phd %}
       <div class="people-item">
         <li class="person">
-            <img src="{{ person.image }}" alt="{{ person.name }}">
+            <img src="{{ site.urlimg }}{{ person.image }}" alt="{{ person.name }}">
             <div class="info">
               <h3>{{ person.name }}</h3>
               <p>Email: {{ person.email }}</p>
