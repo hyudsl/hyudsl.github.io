@@ -11,7 +11,7 @@ title: People
     {% for item in site.data.people_phd %}
       <div class="people-item">
         <p>{{ item }}</p><br>
-        <p>{{ item.name }}</p>
+        <p>{{ item['name'] }}</p>
       </div>
     {% endfor %}
   </div>
