@@ -1,17 +1,17 @@
 kyungri:
-  - name: 'Kyungri Park'
-  - email: 'qkw1207@gmail.com'
-  - interests: 'Computer Vision'
-  - image: people/kyungri.jpg
+  name: 'Kyungri Park'
+  email: 'qkw1207@gmail.com'
+  interests: 'Computer Vision'
+  image: people/kyungri.jpg
 
 jaeyoung:
-  - name: 'Jaeyoung Choe'
-  - email: 'cjy9100@hanyang.ac.kr'
-  - interests: 'Natural Language Processing'
-  - image: people/jaeyoung.jpg
+  name: 'Jaeyoung Choe'
+  email: 'cjy9100@hanyang.ac.kr'
+  interests: 'Natural Language Processing'
+  image: people/jaeyoung.jpg
 
 jiwon:
-  - name: 'Jiwon Suh'
-  - email: 'jwsuh0205@hanyang.ac.kr'
-  - interests: 'Computer Vision'
-  - image: people/jiwon.jpg
+  name: 'Jiwon Suh'
+  email: 'jwsuh0205@hanyang.ac.kr'
+  interests: 'Computer Vision'
+  image: people/jiwon.jpg
