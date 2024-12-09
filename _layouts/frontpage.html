@@ -20,6 +20,8 @@ layout: framework
 		{% include views/frontpage-widget.html widget=page.widget3 %}
 	{% endif %}
 
+    <pre>{{ page | jsonify }}</pre>
+
     {{ content }}
 
 </div>
