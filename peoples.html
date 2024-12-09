@@ -4,6 +4,17 @@ title: People
 ---
 
 <h2>Professor</h2>
+<div class="people-item">
+    <li class="person">
+        <div class="img-container">
+            <img src="{{ site.urlimg }}people/woohwan.jpg" alt="woohwan" class="person-img">
+        </div>
+        <div class="info">
+            <h3>Woohwan Jung</h3>
+            <p>Email: whjung@hanyang.ac.kr</p>
+        </div>
+    </li>
+</div>
 
 <h2>Ph.D students</h2>
 
@@ -22,7 +33,46 @@ title: People
           </li>
       </div>
     {% endfor %}
-  </div>
+</div>
 
 
 <h2>Master students</h2>
+
+<div class="people-container"></div>
+    {% for person in site.data.people_master %}
+      <div class="people-item">
+        <li class="person">
+            <div class="img-container">
+                <img src="{{ site.urlimg }}{{ person.image }}" alt="{{ person.name }}" class="person-img">
+            </div>
+            <div class="info">
+              <h3>{{ person.name }}</h3>
+              <p>Email: {{ person.email }}</p>
+              <p>Interests: {{ person.interests }}</p>
+            </div>
+          </li>
+      </div>
+    {% endfor %}
+</div>
+
+<h2>Undergraduate students</h2>
+
+<div class="people-container"></div>
+    {% for person in site.data.people_undergraduate %}
+      <div class="people-item">
+        <li class="person">
+            <div class="img-container">
+                <img src="{{ site.urlimg }}{{ person.image }}" alt="{{ person.name }}" class="person-img">
+            </div>
+            <div class="info">
+              <h3>{{ person.name }}</h3>
+              <p>Email: {{ person.email }}</p>
+              <p>Interests: {{ person.interests }}</p>
+            </div>
+          </li>
+      </div>
+    {% endfor %}
+</div>
+
+<h2>Alumni</h2>
+
