@@ -18,6 +18,11 @@
             {% assign tags = tags | append: post.tags | join: ',' | append: ',' %}
           {% endfor %}
           {% assign tags = tags | split: ',' | uniq %}
+          <li>
+            <a href="{{ '/index.html' | relative_url }}">
+              {{ tags }}
+            </a>
+          </li>
           {% for tag in tags %}
             {% if tag != "" %}
               {% assign tag_count = 0 %}
