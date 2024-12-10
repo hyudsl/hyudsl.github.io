@@ -3,21 +3,7 @@ layout: sidebar-framework
 sidebar: year-tag-list
 ---
 
-{%- if site.posts.size > 0 -%}
-
-  {% include functions.html func='log' level='debug' msg='Get datetimes value' %}
-
-  {% assign filter = '%Y' %}
-  {% include functions.html func='get_datetimes' %}
-  {% assign datetimes = return %}
-
-  {% assign keys = datetimes | reverse %}
-  {% assign field = 'date' %}
-  {% include views/segments.html %}
-
-{%- endif -%}
-
-<!-- <div class="page-segments">
+<div class="page-segments">
   <ul class="page-segments-list">
     {% assign posts_by_year = site.posts | group_by_exp: "post", "post.date | date: '%Y'" %}
     {% for year in posts_by_year %}
@@ -51,4 +37,4 @@ sidebar: year-tag-list
       {% endfor %}
     {% endfor %}
   </ul>
-</div> -->
+</div>
