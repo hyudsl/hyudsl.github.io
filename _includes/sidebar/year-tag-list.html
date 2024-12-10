@@ -19,7 +19,7 @@
               {% assign tags = tags | append: tag | append: ',' %}
             {% endfor %}
           {% endfor %}
-          
+
           {% assign tags = tags | split: ',' | uniq %}
           {% for tag in tags %}
             {% if tag != "" %}
@@ -30,7 +30,7 @@
                 {% endif %}
               {% endfor %}
               <li>
-                <a href="{{ '/index.html' | relative_url }}">
+                <a href="{{ url }}#h-{{ year.name }}{{ tag }}">
                   {{ tag | strip }} <span>{{ tag_count }}</span>
                 </a>
               </li>
