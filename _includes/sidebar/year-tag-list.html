@@ -15,8 +15,9 @@
         <ul>
           {% assign tags = "" %}
           {% for post in year.items %}
-          {% for tag in post.tags %}
-            {% assign tags = tag | append: ',' %}
+            {% for tag in post.tags %}
+              {% assign tags = tag | append: ',' %}
+            {% endfor %}
           {% endfor %}
           {% assign tags = tags | split: ',' | uniq %}
           <li>
