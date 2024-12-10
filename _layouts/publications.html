@@ -6,25 +6,39 @@ sidebar: pub-list
 <h2 id="international">International</h2>
 {% for pub_year in site.data.publications.international %}
   <h3 class="t10 b10" id="{{pub_year[0]}}">{{pub_year[0]}}</h3>
-  {% for pub in pub_year[1] %}
-    <li>
-      {{pub.author}}, 
-      {% if pub.link %}
-        <a href="{{ pub.link }}">
+  <ui>
+    {% for pub in pub_year[1] %}
+      <li>
+        {{pub.author}}, 
+        {% if pub.link %}
+          <a href="{{ pub.link }}">
+            "{{pub.title}}",
+          </a>
+        {% else %}
           "{{pub.title}}",
-        </a>
-      {% else %}
-        "{{pub.title}}",
-      {% endif %}
-      {{ pub.venue }}
-    </li>
-  {% endfor %}
+        {% endif %}
+        {{ pub.venue }}
+      </li>
+    {% endfor %}
+  </ui>
 {% endfor %}
 
 <h2 class="t60" id="domestic">Domestic</h2>
 {% for pub_year in site.data.publications.domestic %}
   <h3 class="t10 b10" id="{{pub_year[0]}}">{{pub_year[0]}}</h3>
-  {% for pub in pub_year[1] %}
-    <li>{{pub.title}}</li>
-  {% endfor %}
+  <ui>
+    {% for pub in pub_year[1] %}
+      <li>
+        {{pub.author}}, 
+        {% if pub.link %}
+          <a href="{{ pub.link }}">
+            "{{pub.title}}",
+          </a>
+        {% else %}
+          "{{pub.title}}",
+        {% endif %}
+        {{ pub.venue }}
+      </li>
+    {% endfor %}
+  </ui>
 {% endfor %}
