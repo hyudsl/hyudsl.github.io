@@ -1,29 +1,29 @@
 international:
-  - 2025:
+  2025:
     - woohwan@SIGMOD:
         name: 'Cardinality Estimation of LIKE Predicate Queries using Deep Learning'
         authour: 'Suyong Kwon, Kyuseok Shim, and Woohwan Jung'
         venue: 'ACM International Conference on Management of Data (SIGMOD)'
-  - 2024:
+  2024:
     - keonwoong@EMNLP:
         name: 'Beyond Reference: Evaluating High Quality Translations Better than Human References'
         authour: 'Keonwoong Noh, Seokjin Oh, and  Woohwan Jung'
         link: 'https://aclanthology.org/2024.emnlp-main.294/'
         venue: 'Empirical Methods in Natural Language Processing (EMNLP)'
-  - 2023:
+  2023:
     - suah@EMNLP:
         name: 'Enhancing Low-Resource Fine-Grained Named Entity Recognition by Leveraging Coarse-Grained Datasets'
         authour: 'Su Ah Lee, Seokjin Oh, and Woohwan Jung'
         link: 'https://aclanthology.org/2023.emnlp-main.197/'
         venue: 'Empirical Methods in Natural Language Processing (EMNLP)'
-  - 2022:
+  2022:
     - woohwan@VLDB:
         name: 'Cardinality Estimation of Approximate Substring Queries using Deep Learning'
         authour: 'Suyong Kwon, Woohwan Jung, and Kyuseok Shim'
         link: 'https://www.vldb.org/pvldb/vol15/p3145-jung.pdf'
         venue: 'International Conference on Very Large Databases (VLDB)'
 domestic:
-  - 2024:
+  2024:
     - woohwan@SIGMOD:
         name: 'CoCoaH: 문맥과의 관계를 고려한 혐오 발언 탐지'
         authour: '김나연, 김지안, 정우환'
