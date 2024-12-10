@@ -4,12 +4,20 @@ sidebar: pub-list
 ---
 
 <div>
+  <h2>International</h2>
   {% for pub_year in site.data.publications.international %}
     <h3>{{pub_year[0]}}</h3>
     {% for pub in pub_year[1] %}
       <li>{{pub.title}}</li>
     {% endfor %}
-    <!-- <p>{{site.data.publications.international.pub_year[0].size}}</p> -->
+  {% endfor %}
+
+  <h2>Domestic</h2>
+  {% for pub_year in site.data.publications.domestic %}
+    <h3>{{pub_year[0]}}</h3>
+    {% for pub in pub_year[1] %}
+      <li>{{pub.title}}</li>
+    {% endfor %}
   {% endfor %}
 </div>
 
