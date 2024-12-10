@@ -17,7 +17,7 @@
       link: 'https://aclanthology.org/2023.emnlp-main.197/'
       venue: 'Empirical Methods in Natural Language Processing (EMNLP)'
   - 2022:
-    - woohwan@VLDB
+    - woohwan@VLDB:
       name: 'Cardinality Estimation of Approximate Substring Queries using Deep Learning'
       authour: 'Suyong Kwon, Woohwan Jung, and Kyuseok Shim'
       link: 'https://www.vldb.org/pvldb/vol15/p3145-jung.pdf'
