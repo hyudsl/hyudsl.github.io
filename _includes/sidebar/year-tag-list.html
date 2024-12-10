@@ -15,9 +15,10 @@
         <ul>
           {% assign tags = "" %}
           {% for post in year.items %}
-            {% assign tags = tags | append: post.tags | join: ',' | append: ',' %}
+          {% for tag in post.tags %}
+            {% assign tags = tag | append: ',' %}
           {% endfor %}
-          <!-- {% assign tags = tags | split: ',' | uniq %} -->
+          {% assign tags = tags | split: ',' | uniq %}
           <li>
             <a href="{{ '/index.html' | relative_url }}">
               {{ tags | inspect }}
