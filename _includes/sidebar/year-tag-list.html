@@ -3,7 +3,7 @@
     {% assign posts_by_year = site.posts | group_by_exp: "post", "post.date | date: '%Y'" %}
     {% for year in posts_by_year %}
       <li>
-        <h3>{{ year.name }}</h3>
+        {{ year.name }}
         <ul>
           {% assign tags = "" %}
           {% for post in year.items %}
@@ -12,7 +12,7 @@
           {% assign tags = tags | split: ',' | uniq %}
           {% for tag in tags %}
             {% if tag != "" %}
-              <li><strong>{{ tag }}</strong></li>
+              <li>{{ tag }}</li>
             {% endif %}
           {% endfor %}
         </ul>
