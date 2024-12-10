@@ -6,7 +6,7 @@ sidebar: pub-list
 <h2 id="international">International</h2>
 {% for pub_year in site.data.publications.international %}
   <h3 class="t10 b10" id="{{pub_year[0]}}">{{pub_year[0]}}</h3>
-  <ui>
+  <ui class="pub-list">
     {% for pub in pub_year[1] %}
       <li>
         {{pub.author}}, 
@@ -26,7 +26,7 @@ sidebar: pub-list
 <h2 class="t60" id="domestic">Domestic</h2>
 {% for pub_year in site.data.publications.domestic %}
   <h3 class="t10 b10" id="{{pub_year[0]}}">{{pub_year[0]}}</h3>
-  <ui>
+  <ui class="pub-list">
     {% for pub in pub_year[1] %}
       <li>
         {{pub.author}}, 
