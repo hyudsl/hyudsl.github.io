@@ -1,9 +1,9 @@
 - international:
   - 2025:
     - woohwan@SIGMOD:
-      name: 'Cardinality Estimation of LIKE Predicate Queries using Deep Learning'
-      authour: 'Suyong Kwon, Kyuseok Shim, and Woohwan Jung'
-      venue: 'ACM International Conference on Management of Data (SIGMOD)'
+        name: 'Cardinality Estimation of LIKE Predicate Queries using Deep Learning'
+        authour: 'Suyong Kwon, Kyuseok Shim, and Woohwan Jung'
+        venue: 'ACM International Conference on Management of Data (SIGMOD)'
   - 2024:
     - keonwoong@EMNLP:
       name: 'Beyond Reference: Evaluating High Quality Translations Better than Human References'
@@ -22,7 +22,6 @@
       authour: 'Suyong Kwon, Woohwan Jung, and Kyuseok Shim'
       link: 'https://www.vldb.org/pvldb/vol15/p3145-jung.pdf'
       venue: 'International Conference on Very Large Databases (VLDB)'
-
 - domestic:
   - 2024:
     - woohwan@SIGMOD:
