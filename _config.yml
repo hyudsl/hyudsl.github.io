@@ -155,7 +155,6 @@ yat:
 header_pages:
   - index.html
   - peoples.html
-  - research_interests.html
   - seminar.html
   - publications.html
   # - categories.html
