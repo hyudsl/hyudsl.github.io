@@ -19,6 +19,7 @@ html {
         .site-brand-inner, .page-link {
           color: #242c72;
           transition: 0.1s color;
+          font-weight: bold;
         }
 
         @include media-query($on-laptop) {
