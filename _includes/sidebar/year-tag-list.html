@@ -16,13 +16,18 @@
           {% assign tags = "" %}
           {% for post in year.items %}
             {% assign tags = tags | append: post.tags | join: ',' | append: ',' %}
+            <li>
+              <a href="{{ '/index.html' | relative_url }}">
+                {{ post.tags | inspect }}
+              </a>
+            </li>
           {% endfor %}
           {% assign tags = tags | split: ',' | uniq %}
-          <li>
+          <!-- <li>
             <a href="{{ '/index.html' | relative_url }}">
               {{ tags | inspect }}
             </a>
-          </li>
+          </li> -->
           {% for tag in tags %}
             {% if tag != "" %}
               {% assign tag_count = 0 %}
