@@ -3,15 +3,19 @@ layout: sidebar-framework
 sidebar: year-tag-list
 ---
 
-<div class="articles">
-  {% if page.banner == nil %}
-    {% assign banner = page.title %}
-  {% endif %}
+{%- if site.posts.size > 0 -%}
 
-  {{ content }}
+  {% include functions.html func='log' level='debug' msg='Get datetimes value' %}
 
-  {% include views/pagination.html %}
-</div>
+  {% assign filter = '%Y' %}
+  {% include functions.html func='get_datetimes' %}
+  {% assign datetimes = return %}
+
+  {% assign keys = datetimes | reverse %}
+  {% assign field = 'date' %}
+  {% include views/segments.html %}
+
+{%- endif -%}
 
 <!-- <div class="page-segments">
   <ul class="page-segments-list">
