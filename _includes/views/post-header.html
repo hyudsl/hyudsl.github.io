@@ -22,7 +22,8 @@
   {%- if page.tags.size > 0 -%}
   <div class="post-tags">
     {%- for tag in page.tags -%}
-    <a class="post-tag" href="{{ '/tags.html ' | relative_url }}#{{tag}}">#{{tag}}</a>
+    {% assign year=page.date | date: "%Y" %}
+    <a class="post-tag" href="{{ '/seminar.html ' | relative_url }}#h-{{ year }}{{tag}}">#{{tag}}</a>
     {%- endfor -%}
   </div>
   {%- endif -%}
