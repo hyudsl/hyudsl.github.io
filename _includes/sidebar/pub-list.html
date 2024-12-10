@@ -24,7 +24,7 @@
       <a href="{{ '/index.html' | relative_url }}">
         International<span>{{ international_num }}</span>
       </a>
-      <ul class="sub-list">
+      <ul>
         {% for pub_year in site.data.publications.international %}
           <li>
             <a href="{{ '/index.html' | relative_url }}">
@@ -39,7 +39,7 @@
       <a href="{{ '/index.html' | relative_url }}">
         Domestic<span>{{ domestic_num }}</span>
       </a>
-      <ul class="sub-list">
+      <ul>
         {% for pub_year in site.data.publications.domestic %}
           <li>
             <a href="{{ '/index.html' | relative_url }}">

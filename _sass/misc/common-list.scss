@@ -8,6 +8,10 @@
   ul {
     list-style: none;
     margin: 0;
+
+    ul {
+      margin-left: 20px; /* 위, 아래, 왼쪽 여백 설정 */
+    }
   }
 
   li {
