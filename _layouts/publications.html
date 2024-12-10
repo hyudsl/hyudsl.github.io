@@ -4,8 +4,9 @@ sidebar: pub-list
 ---
 
 <div>
-  {% for pub_year in site.data.publications.international %}
-    <p>{{pub_year[0]}}</p>
+  {% for pub_year, value in site.data.publications.international %}
+    <h3>{{pub_year}}</h3>
+    {% %}
     <p>{{site.data.publications.international.pub_year[0].size}}</p>
   {% endfor %}
 </div>
