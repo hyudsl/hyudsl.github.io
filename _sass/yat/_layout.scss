@@ -257,6 +257,10 @@ html {
   padding-top: 72px;
 }
 
+.page-bottom {
+  padding-bottom: $spacing-unit * 2;
+}
+
 .page-heading {
   @include relative-font-size(2);
 }
