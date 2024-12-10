@@ -3,6 +3,17 @@ layout: sidebar-framework
 sidebar: pub-list
 ---
 
+<div>
+  <p>{{site.data.publications.international}}</p>
+
+  {% for pub_year in site.data.publications.international %}
+    <p>{{pub_year}}</p>
+    <p></p>{{pub_year.size}}</p>
+    {% assign total_num = total_num | plus: pub_year.size %}
+    {% assign international_num = international_num | plus: pub_year.size %}
+  {% endfor %}
+</div>
+
 <!-- {%- if site.posts.size > 0 -%}
 
   {% include functions.html func='log' level='debug' msg='Get datetimes value' %}
