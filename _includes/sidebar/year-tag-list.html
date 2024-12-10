@@ -1,5 +1,11 @@
 <div class="common-list">
   <ul>
+    <li>
+      <a href="{{ '/index.html' | relative_url }}">
+        All<span>{{ total_num }}</span>
+      </a>
+    </li>
+
     {% assign posts_by_year = site.posts | group_by_exp: "post", "post.date | date: '%Y'" %}
     {% for year in posts_by_year %}
       <li>
@@ -12,7 +18,13 @@
           {% assign tags = tags | split: ',' | uniq %}
           {% for tag in tags %}
             {% if tag != "" %}
-              <li>{{ tag }}</li>
+              {% assign tag_count = 0 %}
+              {% for post in year.items %}
+                {% if post.tags contains tag %}
+                  {% assign tag_count = tag_count | plus: 1 %}
+                {% endif %}
+              {% endfor %}
+              <li>{{ tag[0] }} <span>{{ tag_count }}</span></li>
             {% endif %}
           {% endfor %}
         </ul>
