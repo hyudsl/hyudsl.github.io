@@ -1,0 +1,22 @@
+<div class="common-list">
+  <ul>
+    {% assign posts_by_year = site.posts | group_by_exp: "post", "post.date | date: '%Y'" %}
+    {% for year in posts_by_year %}
+      <li>
+        <h3>{{ year.name }}</h3>
+        <ul>
+          {% assign tags = "" %}
+          {% for post in year.items %}
+            {% assign tags = tags | append: post.tags | join: ',' | append: ',' %}
+          {% endfor %}
+          {% assign tags = tags | split: ',' | uniq %}
+          {% for tag in tags %}
+            {% if tag != "" %}
+              <li><strong>{{ tag }}</strong></li>
+            {% endif %}
+          {% endfor %}
+        </ul>
+      </li>
+    {% endfor %}
+  </ul>
+</div>
