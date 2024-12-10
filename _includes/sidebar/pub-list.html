@@ -3,13 +3,13 @@
 {% assign domestic_num = 0 %}
 
 {% for pub_year in site.data.publications.international %}
-  {% assign total_num = total_num | plus: pub_year.size %}
-  {% assign international_num = international_num | plus: pub_year.size %}
+  {% assign total_num = total_num | plus: pub_year[1].size %}
+  {% assign international_num = international_num | plus: pub_year[1].size %}
 {% endfor %}
 
 {% for pub_year in site.data.publications.domestic %}
-  {% assign total_num = total_num | plus: pub_year.size %}
-  {% assign domestic_num = domestic_num | plus: pub_year.size %}
+  {% assign total_num = total_num | plus: pub_year[1].size %}
+  {% assign domestic_num = domestic_num | plus: pub_year[1].size %}
 {% endfor %}
 
 <div class="common-list">
