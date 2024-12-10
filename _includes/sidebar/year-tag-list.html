@@ -20,8 +20,7 @@
           {% assign tags = tags | split: ',' | uniq %}
           <li>
             <a href="{{ '/index.html' | relative_url }}">
-              {{ tags }}
-              {{ tags[0] }}
+              {{ tags | inspect }}
             </a>
           </li>
           {% for tag in tags %}
