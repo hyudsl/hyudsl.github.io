@@ -1,0 +1,40 @@
+---
+layout: sidebar-framework
+sidebar: year-tag-list
+---
+
+<div class="page-segments">
+  <ul class="page-segments-list">
+    {% assign posts_by_year = site.posts | group_by_exp: "post", "post.date | date: '%Y'" %}
+    {% for year in posts_by_year %}
+      <h2 id="{{ year.name }}" class="segment-name">{{ year.name }}</h2>
+
+      {% assign tags = "" %}
+      {% for post in year.items %}
+        {% for tag in post.tags %}
+          {% assign tags = tags | append: tag | append: ',' %}
+        {% endfor %}
+      {% endfor %}
+      
+      {% assign tags = tags | split: ',' | uniq %}
+      {% for tag in tags %}
+        {% if tag != "" %}
+          <h3 id="{{ year.name }}{{ tag }}">{{ tag }}</h3>
+          {% assign tag_count = 0 %}
+          {% for post in year.items %}
+            {% if post.tags contains tag %}
+              {% assign item = post%}
+              {%- assign post_item_class = "" -%}
+              {%- if item.top -%}
+                {%- assign post_item_class = "top-post" -%}
+              {%- endif -%}
+              <li class="{{ post_item_class }}">
+                {%- include views/post-item.html -%}
+              </li>
+            {% endif %}
+          {% endfor %}
+        {% endif %}
+      {% endfor %}
+    {% endfor %}
+  </ul>
+</div>
