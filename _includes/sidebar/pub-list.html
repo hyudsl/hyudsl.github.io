@@ -2,7 +2,11 @@
 {% assign international_num = 0 %}
 {% assign domestic_num = 0 %}
 
+{{site.data.publications.international}}
+
 {% for pub_year in site.data.publications.international %}
+  {{pub_year}}
+  {{pub_year.size}}
   {% assign total_num = total_num | plus: pub_year.size %}
   {% assign international_num = international_num | plus: pub_year.size %}
 {% endfor %}
@@ -20,7 +24,7 @@
       </a>
     </li>
 
-    <li></li>
+    <li>
       <a href="{{ '/index.html' | relative_url }}">
         International<span>{{ international_num }}</span>
       </a>
@@ -34,7 +38,7 @@
       </li>
     {% endfor %}
 
-    <li></li>
+    <li>
       <a href="{{ '/index.html' | relative_url }}">
         Domestic<span>{{ domestic_num }}</span>
       </a>
