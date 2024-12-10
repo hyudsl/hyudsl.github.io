@@ -3,6 +3,9 @@ international:
     - title: 'Cardinality Estimation of LIKE Predicate Queries using Deep Learning'
       authour: 'Suyong Kwon, Kyuseok Shim, and Woohwan Jung'
       venue: 'ACM International Conference on Management of Data (SIGMOD)'
+    - title: 'Cardinality Estimation of LIKE Predicate Queries using Deep Learning'
+      authour: 'Suyong Kwon, Kyuseok Shim, and Woohwan Jung'
+      venue: 'ACM International Conference on Management of Data (SIGMOD)'
   2024:
     - keonwoong@EMNLP:
       title: 'Beyond Reference: Evaluating High Quality Translations Better than Human References'
