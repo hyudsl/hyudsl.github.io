@@ -3,7 +3,17 @@ layout: sidebar-framework
 sidebar: year-tag-list
 ---
 
-<div class="page-segments">
+<div class="articles">
+  {% if page.banner == nil %}
+    {% assign banner = page.title %}
+  {% endif %}
+
+  {{ content }}
+
+  {% include views/pagination.html %}
+</div>
+
+<!-- <div class="page-segments">
   <ul class="page-segments-list">
     {% assign posts_by_year = site.posts | group_by_exp: "post", "post.date | date: '%Y'" %}
     {% for year in posts_by_year %}
@@ -37,4 +47,4 @@ sidebar: year-tag-list
       {% endfor %}
     {% endfor %}
   </ul>
-</div>
+</div> -->
