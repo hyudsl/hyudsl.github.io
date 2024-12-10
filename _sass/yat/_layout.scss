@@ -16,7 +16,12 @@ html {
       transition: 0.1s height,background-color,box-shadow;
 
       &.site-header {
-        .site-brand-inner, .page-link {
+        .site-brand-inner {
+          color: #242c72;
+          transition: 0.1s color;
+        }
+
+        .page-link {
           color: #fff;
           transition: 0.1s color;
         }
