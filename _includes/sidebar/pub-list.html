@@ -1,0 +1,51 @@
+{% assign total_num = 0 %}
+{% assign international_num = 0 %}
+{% assign domestic_num = 0 %}
+
+{% for pub_year in site.data.publications.international %}
+  {% assign total_num = total_num | plus: pub_year.size %}
+  {% assign international_num = international_num | plus: pub_year.size %}
+{% endfor %}
+
+{% for pub_year in site.data.publications.domestic %}
+  {% assign total_num = total_num | plus: pub_year.size %}
+  {% assign domestic_num = domestic_num | plus: pub_year.size %}
+{% endfor %}
+
+<div class="common-list">
+  <ul>
+    <li>
+      <a href="{{ '/index.html' | relative_url }}">
+        All<span>{{ total_num }}</span>
+      </a>
+    </li>
+
+    <li></li>
+      <a href="{{ '/index.html' | relative_url }}">
+        International<span>{{ international_num }}</span>
+      </a>
+    </li>
+
+    {% for pub_year in site.data.publications.international %}
+      <li>
+        <a href="{{ '/index.html' | relative_url }}">
+          {{ pub_year }} <span>{{ pub_year.size }}</span>
+        </a>
+      </li>
+    {% endfor %}
+
+    <li></li>
+      <a href="{{ '/index.html' | relative_url }}">
+        Domestic<span>{{ domestic_num }}</span>
+      </a>
+    </li>
+
+    {% for pub_year in site.data.publications.domestic %}
+      <li>
+        <a href="{{ '/index.html' | relative_url }}">
+          {{ pub_year }} <span>{{ pub_year.size }}</span>
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+</div>
