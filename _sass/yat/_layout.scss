@@ -249,7 +249,11 @@ html {
 .page-content {
   @extend %flex-1; /* <-- Keep footer on the bottom */
   -ms-flex: none; /* <-- Fix IE footer issue */
-  padding: $spacing-unit * 2 0;
+  // padding: $spacing-unit * 2 0;
+  // padding-top: 72px;
+}
+
+.page-top {
   padding-top: 72px;
 }
 
