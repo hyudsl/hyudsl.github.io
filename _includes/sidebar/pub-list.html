@@ -15,19 +15,19 @@
 <div class="common-list">
   <ul>
     <li>
-      <a href="{{ '/index.html' | relative_url }}">
+      <a href="{{ url }}">
         All<span>{{ total_num }}</span>
       </a>
     </li>
 
     <li>
-      <a href="{{ '/index.html' | relative_url }}">
+      <a href="{{ url }}#h-international">
         International<span>{{ international_num }}</span>
       </a>
       <ul>
         {% for pub_year in site.data.publications.international %}
           <li>
-            <a href="{{ '/index.html' | relative_url }}">
+            <a href="{{ url }}#h-{{ pub_year[0] }}">
               {{ pub_year[0] }} <span>{{ pub_year[1].size }}</span>
             </a>
           </li>
@@ -36,13 +36,13 @@
     </li>
 
     <li>
-      <a href="{{ '/index.html' | relative_url }}">
+      <a href="{{ url }}#h-domestic">
         Domestic<span>{{ domestic_num }}</span>
       </a>
       <ul>
         {% for pub_year in site.data.publications.domestic %}
           <li>
-            <a href="{{ '/index.html' | relative_url }}">
+            <a href="{{ url }}#h-{{ pub_year[0] }}">
               {{ pub_year[0] }} <span>{{ pub_year[1].size }}</span>
             </a>
           </li>
