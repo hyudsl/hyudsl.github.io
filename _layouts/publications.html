@@ -13,11 +13,11 @@ sidebar: pub-list
         {% if pub.link %}
           <a href="{{ pub.link }}">
             "{{pub.title}}"
-          </a>
+          </a>,
         {% else %}
-          "{{pub.title}}"
+          "{{pub.title}}",
         {% endif %}
-        ,{{ pub.venue }}
+        {{ pub.venue }}
       </li>
     {% endfor %}
   </ui>
@@ -33,7 +33,7 @@ sidebar: pub-list
         {% if pub.link %}
           <a href="{{ pub.link }}">
             "{{pub.title}}",
-          </a>
+          </a>,
         {% else %}
           "{{pub.title}}",
         {% endif %}
