@@ -32,8 +32,8 @@ pdf_url: 'https://drive.google.com/file/d/1T3F_624bpfymQQxLJ_dqO4TNSjJTjEME/prev
 구글 드라이브에서 pdf 파일의 공유 링크를 복사하여 붙여넣습니다. \
 그 뒤 꼭 경로 마지막을 preview로 바꿔줍니다. (홈페이지에 제대로 표시가 안 될 수 있습니다.) \
 ex. \
-https://drive.google.com/file/d/1T3F_624bpfymQQxLJ_dqO4TNSjJTjEME<span style="color: red;">/view?usp=drive_link</span> \
-→ https://drive.google.com/file/d/1T3F_624bpfymQQxLJ_dqO4TNSjJTjEME<span style="color: red;">/preview</span> \
+https://drive.google.com/file/d/1T3F_624bpfymQQxLJ_dqO4TNSjJTjEME/view?usp=drive_link \
+→ https://drive.google.com/file/d/1T3F_624bpfymQQxLJ_dqO4TNSjJTjEME/preview\
 
 포스트에 넣고 싶은 내용이 있는 경우, 위 내용 아래에 추가하면 홈페이지에서 pdf 뷰어 아래에 추가됩니다.
 
