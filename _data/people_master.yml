@@ -1,35 +1,29 @@
-- jian:
-  name: 'Jian Kim'
+- name: 'Jian Kim'
   email: 'ujinne@hanyang.ac.kr'
   interests: 'Natural Language Processing'
   image: people/jian.jpg
 
-- seokjin:
-  name: 'Seokjin Oh'
+- name: 'Seokjin Oh'
   email: 'seokjinoh@hanyang.ac.kr'
   interests: 'Natural Language Processing'
   image: people/seokjin.jpg
 
-- nayoung:
-  name: 'Nayoung Gil'
+- name: 'Nayoung Gil'
   email: 'gilony@hanyang.ac.kr'
   interests: 'Natural Language Processing'
   image: people/nayoung.jpg
 
-- keonwoong:
-  name: 'Keon-woong Noh'
+- name: 'Keon-woong Noh'
   email: 'rohgw011@hanyang.ac.kr'
   interests: 'Natural Language Processing'
   image: people/keonwoong.jpg
 
-- injae:
-  name: 'Injae Na'
+- name: 'Injae Na'
   email: 'suhoij47@hanyang.ac.kr'
   interests: 'Natural Language Processing'
   image: people/injae.jpg
 
-- daeyun:
-  name: 'Dae-yun Jeong'
+- name: 'Dae-yun Jeong'
   email: 'jwsuh0205@hanyang.ac.kr'
   interests: 'Computer Vision'
   image: people/daeyun.jpg

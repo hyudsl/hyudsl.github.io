@@ -76,11 +76,15 @@ title: People
 
 <h2>Alumni</h2>
 
-<h3>2024</h3>
-Jihoon Kim  (Master, 2024. 2.)  Ramply <br>
-Minsu Ha  (Master, 2024. 2.)  (주) 커넥트브릭 <br>
-Suah Lee  (Master, 2024. 2.) KT <br>
-Nayeon Kim  (Master, 2024. 8.) <br>
-
-<h3 class="t60">2022</h3>
-Baljinnyam Baasan-Ochir  (Master, 2022. 8.)  INEEJI <br>
+{% for year in site.data.people_alumni %}
+  <h3 class="t10 b10">{{year[0]}}</h3>
+  <ui class="pub-list">
+    {% for person in year[1] %}
+      <li>
+        {{ person.name }} ({{ person.degree }}, {{ person.date }})
+        {% if person.workplace %}
+          {{ person.workplace }}
+        {% endif %}
+      </li>
+  </ui>
+{% endfor %}

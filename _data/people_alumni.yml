@@ -1,0 +1,22 @@
+2024:
+  - name: 'Jihoon Kim'
+    degree: 'Master'
+    date: 2024.02
+    workplace: 'Ramply'
+  - name: 'Minsu Ha'
+    degree: 'Master'
+    date: 2024.02
+    workplace: '(주) 커넥트브릭'
+  - name: 'Suah Lee'
+    degree: 'Master'
+    date: 2024.02
+    workplace: 'KT'
+  - name: 'Nayeon Kim'
+    degree: 'Master'
+    date: 2024.08
+
+2022:
+  - name: 'Baljinnyam Baasan-Ochir'
+    degree: 'Master'
+    date: 2022.08
+    workplace: 'INEEJI'
