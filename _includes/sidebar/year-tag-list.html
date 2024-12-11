@@ -10,7 +10,7 @@
     {% for year in posts_by_year %}
       <li>
         <a href="{{ url }}#h-{{ year.name }}">
-          {{ year.name }}
+          {{ year.name }} <span>{{ year.size }}</span>
         </a>
         <ul>
           {% assign tags = "" %}
