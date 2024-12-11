@@ -13,15 +13,19 @@
 
 
 <div class="medium-4 columns frontpage-widget">
-	{% if include.widget.video %}
-		{{ include.widget.video }}
-	{% elsif widget_url == empty %}
-		{% if widget_image != empty %}<img src="{{ widget_image }}" alt="" />{% endif %}
-	{% else %}
-		<a href="{{ widget_url }}">
-			{% if widget_image != empty %}<img src="{{ widget_image }}" alt="" />{% endif %}
-		</a>
-	{% endif %}
+	<div class="fixed-ratio-container">
+		{% if include.widget.video %}
+			{{ include.widget.video }}
+		{% elsif widget_url == empty %}
+			{% if widget_image != empty %}
+				<img src="{{ widget_image }}" alt="" />{% endif %}
+		{% else %}
+			<a href="{{ widget_url }}">
+				{% if widget_image != empty %}<img src="{{ widget_image }}" alt="" />{% endif %}
+			</a>
+		{% endif %}
+	</div>
+	
 	<h2 class="font-size-h3 t10 center-text">{{ include.widget.title }}</h2>
 
 	{% if include.widget.text != empty %}<p>{{ include.widget.text }}</p>{% endif %}

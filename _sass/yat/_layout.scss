@@ -923,3 +923,20 @@ a:visited .post-badges .post-badge.badge-new {
   text-indent: -20px; /* 첫 줄 들여쓰기 조정 */
   margin-left: 20px; /* 두 번째 줄 위치 조정 */
 }
+
+.fixed-ratio-container {
+  position: relative;
+  padding-top: 75%; /* 4:3 비율로 설정할 경우 100 / (4/3) */
+  height: 0;
+  overflow: hidden;
+  background-size: cover;
+}
+
+.fixed-ratio-container img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* 이미지 비율 유지 */
+}
