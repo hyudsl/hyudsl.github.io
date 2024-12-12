@@ -31,7 +31,7 @@ pdf_url: 'https://drive.google.com/file/d/1T3F_624bpfymQQxLJ_dqO4TNSjJTjEME/prev
 * date: 세미나 날짜, 파일명에 쓰인 날짜와 동일하게
 
 * __pdf_url__ \
-구글 드라이브에서 pdf 파일의 공유 링크를 복사하여 붙여넣습니다. \
+구글 드라이브에서 pdf 파일의 공유 링크를 복사하여 붙여넣습니다. (공유 권한을 '링크가 있는 모든 사용자' 로 바꾸고 해주세요.) \
 그 뒤 꼭 경로 마지막을 preview로 바꿔줍니다. (홈페이지에 제대로 표시가 안 될 수 있습니다.) \
 ex. \
 https://drive.google.com/file/d/1T3F_624bpfymQQxLJ_dqO4TNSjJTjEME/view?usp=drive_link \
