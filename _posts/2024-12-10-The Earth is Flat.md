@@ -1,6 +1,6 @@
 ---
 layout: seminar-post
-title: The Earth is Flat because...: Investigating LLMs' Belief towards Misinformation via Persuasive Conversation
+title: 'The Earth is Flat because...: Investigating LLMs' Belief towards Misinformation via Persuasive Conversation'
 subtitle: 'ACL 2024 Outstanding paper'
 categories: NLP
 tags: [NLP, ACL, LLM]
