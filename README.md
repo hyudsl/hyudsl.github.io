@@ -1,5 +1,7 @@
 # DSLAB (Hanyang University)
 
+### https://hyudsl.github.io/homepage/
+
 ## 세미나 포스트 추가 방법
 
 1. 파일 생성 \
