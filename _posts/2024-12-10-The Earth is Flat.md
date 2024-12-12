@@ -5,5 +5,5 @@ subtitle: 'ACL 2024 Outstanding paper'
 categories: NLP
 tags: [LLM]
 date: 2024-12-10
-pdf_url: 'https://drive.google.com/drive/u/1/folders/189VOJJ4MDWPXbmzzt5Duirjmf8Wk78NX/preview'
+pdf_url: 'https://drive.google.com/file/d/1IXhXoLyt_mMRfwpMzk6AtbEMb0gRdwll/preview'
 ---
