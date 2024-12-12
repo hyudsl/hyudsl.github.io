@@ -940,3 +940,16 @@ a:visited .post-badges .post-badge.badge-new {
   height: 100%;
   object-fit: cover; /* 이미지 비율 유지 */
 }
+
+.toggle-btn {
+  background-color: white;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+// .toggle-btn:hover {
+//   background-color: #0056b3;
+// }
