@@ -10,7 +10,7 @@
     {% for year in posts_by_year %}
       <li>
         <div style="display: flex; align-items: center; gap: 10px;">
-          <button class="toggle-btn">▼</button>
+          <button class="toggle-btn">▶</button>
           <a href="{{ url }}#h-{{ year.name }}">
             {{ year.name }} <span>{{ year.size }}</span>
           </a>
@@ -56,10 +56,10 @@
       const toggleList = toggleLists[index]; // 해당 버튼의 리스트 찾기
       if (toggleList.style.display === "none") {
         toggleList.style.display = "block"; // 리스트 보이기
-        button.textContent = "Hide List";
+        button.textContent = "▼";
       } else {
         toggleList.style.display = "none"; // 리스트 숨기기
-        button.textContent = "Show List";
+        button.textContent = "▶";
       }
     });
   });
