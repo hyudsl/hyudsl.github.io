@@ -54,7 +54,7 @@
   toggleButtons.forEach((button, index) => {
     button.addEventListener("click", () => {
       const toggleList = toggleLists[index]; // 해당 버튼의 리스트 찾기
-      const yearLink = button.previousElementSibling; // 바로 앞에 있는 a 태그 찾기
+      const yearLink = button.nextElementSibling; // 바로 앞에 있는 a 태그 찾기
 
       if (toggleList.style.display === "none") {
         toggleList.style.display = "block"; // 리스트 보이기
