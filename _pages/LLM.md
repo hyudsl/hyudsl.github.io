@@ -1,7 +1,7 @@
 ---
 layout: interests-post
 title: LLM
-permalink: /LLM/
+permalink: '/LLM.html'
 ---
 
 ...
