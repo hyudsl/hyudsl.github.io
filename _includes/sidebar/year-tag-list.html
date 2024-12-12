@@ -9,9 +9,9 @@
     {% assign posts_by_year = site.posts | group_by_exp: "post", "post.date | date: '%Y'" %}
     {% for year in posts_by_year %}
       <li>
-        <div style="display: block; align-items: center; gap: 10px;">
+        <div style="display: flex; align-items: center; gap: 10px;">
           <button class="toggle-btn">▶</button>
-          <a href="{{ url }}#h-{{ year.name }}" class="year-link">
+          <a href="{{ url }}#h-{{ year.name }}" class="year-link" style="display: block">
             {{ year.name }} <span>{{ year.size }}</span>
           </a>
         </div>
