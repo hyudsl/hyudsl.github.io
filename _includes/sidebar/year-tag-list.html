@@ -50,7 +50,7 @@
   // 모든 토글 버튼과 리스트를 선택
   const toggleButtons = document.querySelectorAll(".toggle-btn");
   const toggleLists = document.querySelectorAll(".toggle-list");
-  const linkLists = document.querySelectorAll(".year-link");
+  // const linkLists = document.querySelectorAll(".year-link");
 
   toggleButtons.forEach((button, index) => {
     button.addEventListener("click", () => {
@@ -65,7 +65,7 @@
         toggleList.style.display = "none"; // 리스트 숨기기
         button.textContent = "▶";
       }
-      yearLink.style.display = "block";
+      // yearLink.style.display = "block";
     });
   });
 </script>
