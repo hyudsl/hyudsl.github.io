@@ -39,7 +39,12 @@ https://drive.google.com/file/d/1T3F_624bpfymQQxLJ_dqO4TNSjJTjEME/view?usp=drive
 
 
 ## Pepole 추가 방법
-추가할 사람들의 학위 과정에 맞게 _data 폴더에서 people_phd.yml, people_master.yml, people_aumni.yml 중 하나를 수정합니다. \
+추가할 사람들의 학위 과정에 맞게 _data 폴더에서 아래 파일 중 하나를 수정합니다. \
+* people_phd.yml
+* people_master.yml
+* people_undergraduate.yml
+* people_aumni.yml 
+
 사진은 images/people에 추가합니다.
 
 ## Publication 추가 방법
