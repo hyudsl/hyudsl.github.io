@@ -9,10 +9,15 @@
     {% assign posts_by_year = site.posts | group_by_exp: "post", "post.date | date: '%Y'" %}
     {% for year in posts_by_year %}
       <li>
-        <a href="{{ url }}#h-{{ year.name }}">
-          {{ year.name }} <span>{{ year.size }}</span>
-        </a>
-        <ul>
+
+        <div style="display: flex; align-items: center; gap: 10px;">
+          <button id="toggle-btn">▼</button>
+          <a href="{{ url }}#h-{{ year.name }}">
+            {{ year.name }} <span>{{ year.size }}</span>
+          </a>
+        </div>
+
+        <ul id="toggle-list" style="display: none">
           {% assign tags = "" %}
           {% for post in year.items %}
             {% for tag in post.tags %}
@@ -41,3 +46,19 @@
     {% endfor %}
   </ul>
 </div>
+
+<script>
+  const toggleButton = document.getElementById("toggle-btn");
+  const toggleList = document.getElementById("toggle-list");
+
+  toggleButton.addEventListener("click", () => {
+    // 리스트 표시/숨기기
+    if (toggleList.style.display === "none") {
+      toggleList.style.display = "block"; // 리스트 보이기
+      toggleButton.textContent = "Hide List";
+    } else {
+      toggleList.style.display = "none"; // 리스트 숨기기
+      toggleButton.textContent = "Show List";
+    }
+  });
+</script>
