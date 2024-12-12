@@ -254,3 +254,5 @@ plugins:
   - jekyll-spaceship
 
 urlimg: 'https://hyudsl.github.io/homepage/images/'
+
+include: ['_pages']
