@@ -5,5 +5,5 @@ subtitle: 'ECCV'
 categories: Computer Vision
 tags: [Object-Detection]
 date: 2022-05-30
-pdf_url: 'https://drive.google.com/file/d/1hqGV8CSYtFPTCwbrt9kOThXq_6uHZ_xq/view?usp=sharing'
+pdf_url: 'https://drive.google.com/file/d/1hqGV8CSYtFPTCwbrt9kOThXq_6uHZ_xq/preview'
 ---

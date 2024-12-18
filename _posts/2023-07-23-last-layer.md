@@ -5,5 +5,5 @@ subtitle: 'ICLR'
 categories: Computer Vision
 tags: [Representation]
 date: 2023-07-23
-pdf_url: 'https://drive.google.com/file/d/1e8sScpkbqxsYMqWzTWZcEx_7b4mNsH40/view?usp=sharing'
+pdf_url: 'https://drive.google.com/file/d/1e8sScpkbqxsYMqWzTWZcEx_7b4mNsH40/preview'
 ---
