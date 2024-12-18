@@ -10,13 +10,13 @@
     {% for year in posts_by_year %}
       <li>
         <div style="display: flex; align-items: center; gap: 10px;">
-          <button class="toggle-btn">▶</button>
-          <a href="{{ url }}#h-{{ year.name }}" class="year-link" style="display: block">
+          <button class="tag-list-toggle-btn toggle-btn">▶</button>
+          <a href="{{ url }}#h-{{ year.name }}" class="tag-list-year-link" style="display: block">
             {{ year.name }} <span>{{ year.size }}</span>
           </a>
         </div>
 
-        <ul class="toggle-list" style="display: none">
+        <ul class="tag-list-toggle-list" style="display: none">
           {% assign tags = "" %}
           {% for post in year.items %}
             {% for tag in post.tags %}
@@ -48,15 +48,12 @@
 
 <script>
   // 모든 토글 버튼과 리스트를 선택
-  const toggleButtons = document.querySelectorAll(".toggle-btn");
-  const toggleLists = document.querySelectorAll(".toggle-list");
-  // const linkLists = document.querySelectorAll(".year-link");
+  const toggleButtons = document.querySelectorAll(".tag-list-toggle-btn");
+  const toggleLists = document.querySelectorAll(".tag-list-toggle-list");
 
   toggleButtons.forEach((button, index) => {
     button.addEventListener("click", () => {
       const toggleList = toggleLists[index]; // 해당 버튼의 리스트 찾기
-      // const yearLink = linkLists[index];
-      // const yearLink = button.nextElementSibling; // 바로 앞에 있는 a 태그 찾기
 
       if (toggleList.style.display === "none") {
         toggleList.style.display = "block"; // 리스트 보이기
@@ -65,7 +62,6 @@
         toggleList.style.display = "none"; // 리스트 숨기기
         button.textContent = "▶";
       }
-      // yearLink.style.display = "block";
     });
   });
 </script>

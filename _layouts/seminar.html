@@ -20,7 +20,7 @@ sidebar: year-tag-list
       {% for tag in tags %}
         {% if tag != "" %}
           <div style="display: flex; align-items: center; gap: 10px;">
-            <button class="seminar-list-toggle-btn">▶</button>
+            <button class="seminar-list-toggle-btn toggle-btn">▶</button>
             <h3 class="t10 b10 year-link" id="{{ year.name }}{{ tag }}" style="display: block">{{ tag }}</h3>
           </div>
           <ul class="seminar-list-toggle-list" style="display: none">
