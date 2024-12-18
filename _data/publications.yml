@@ -1,7 +1,8 @@
 international:
   2025:
     - title: 'Cardinality Estimation of LIKE Predicate Queries using Deep Learning'
-      author: 'Suyong Kwon, Kyuseok Shim, and Woohwan Jung'
+      author:
+        - name: 'Suyong Kwon, Kyuseok Shim, and <strong>Woohwan Jung</strong>'
       venue: 'ACM International Conference on Management of Data (SIGMOD)'
     - title: 'Improving Detail in Pluralistic Image Inpainting with Feature Dequantization'
       author: 'Kyungri Park and Woohwan Jung'
