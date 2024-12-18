@@ -23,7 +23,7 @@ sidebar: year-tag-list
             <button class="seminar-list-toggle-btn toggle-btn">▶</button>
             <h3 class="t10 b10 year-link" id="{{ year.name }}{{ tag }}" style="display: block">{{ tag }}</h3>
           </div>
-          <ul class="seminar-list-toggle-list" style="display: none">
+          <ul class="seminar-list-toggle-list" style="display: none; list-style: none">
             {% assign tag_count = 0 %}
             {% for post in year.items %}
               {% if post.tags contains tag %}
