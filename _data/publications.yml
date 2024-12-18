@@ -34,7 +34,7 @@ international:
     - title: 'Exploring the Impact of Corpus Diversity on Financial Pretrained Language Models'
       author: 'Jaeyoung Choe, Keonwoong Noh, Nayeon Kim, Seyun Ahn, Woohwan Jung'
       link: 'https://aclanthology.org/2023.findings-emnlp.138/'
-      venue: 'Empirical Methods in Natural Language Processing (EMNLP)'
+      venue: 'Empirical Methods in Natural Language Processing (EMNLP Findings)'
     - title: 'THUNDER: Named Entity Recognition using a Teacher-student Model with Dual Classifiers for Strong and Weak Supervisions'
       author: 'Seongwoon Oh, Woohwan Jung, and Kyuseok Shim'
       link: 'http://dx.doi.org/10.3233/FAIA230466'
