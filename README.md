@@ -52,7 +52,8 @@ https://drive.google.com/file/d/1T3F_624bpfymQQxLJ_dqO4TNSjJTjEME/view?usp=drive
 ## Publication 추가 방법
 _data/publications.yml에 추가합니다. \
 International, domestic과 연도 구분 잘 확인하고 추가해주세요. \
-논문 링크가 없는 경우에는 생략해도 괜찮습니다.
+논문 링크가 없는 경우에는 생략해도 괜찮습니다. \
+__연구실 인원들 이름에는 '\<strong\>' 태그 달아주세요!__
 
 ## 페이지 별 대표 파일
 * home → _layout/home.html
