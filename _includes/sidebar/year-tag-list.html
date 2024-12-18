@@ -48,12 +48,12 @@
 
 <script>
   // 모든 토글 버튼과 리스트를 선택
-  const toggleButtons = document.querySelectorAll(".tag-list-toggle-btn");
-  const toggleLists = document.querySelectorAll(".tag-list-toggle-list");
+  const tagToggleButtons = document.querySelectorAll(".tag-list-toggle-btn");
+  const tagToggleLists = document.querySelectorAll(".tag-list-toggle-list");
 
-  toggleButtons.forEach((button, index) => {
+  tagToggleButtons.forEach((button, index) => {
     button.addEventListener("click", () => {
-      const toggleList = toggleLists[index]; // 해당 버튼의 리스트 찾기
+      const toggleList = tagToggleLists[index]; // 해당 버튼의 리스트 찾기
 
       if (toggleList.style.display === "none") {
         toggleList.style.display = "block"; // 리스트 보이기
