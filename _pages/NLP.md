@@ -4,7 +4,7 @@ title: Natural Language Processing
 permalink: '/NLP.html'
 ---
 
-![Chatbot](https://drive.google.com/open?id=15cSLpP_cQKUqCNd3i-zeg1uw2YrdKzN8&usp=drive_fs)
+![Chatbot](https://drive.google.com/file/d/15cSLpP_cQKUqCNd3i-zeg1uw2YrdKzN8/view)
 
 # Data Science Lab's Natural Language Processing (NLP) Research
 
