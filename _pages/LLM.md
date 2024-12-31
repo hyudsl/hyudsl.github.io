@@ -16,13 +16,5 @@ Large Language Models (LLMs)는 대규모 데이터를 학습하여 자연어를
 
 - Keonwoong Noh, Seokjin Oh, Woohwan Jung, “Beyond Reference: Evaluating High Quality Translations Better than Human References”, ([EMNLP 2024](https://aclanthology.org/2024.emnlp-main.294/))
 
-## Domain Specific ASRs
-
-
-## Messenger Phishing Detection
-
-* Keonwoong Noh, Seokjin Oh, Sunyub Kim, Dohyung An, Woohwan Jung, "Data Augmentation for Messenger Phishing Detection Using Large Language Models", International Conference on Electronics, Information, and Communication (ICEIC)
-* Seokjin Oh, Keonwoong Noh, Sunyub Kim, Dohyung An, Woohwan Jung, "Improving Messenger Phishing Detection Using Heterogeneous Phishing Data", International Conference on Electronics, Information, and Communication (ICEIC)
-
 ## Join Us
 데이터 사이언스 연구실은 최첨단 LLM 기술을 활용해 실제 문제를 해결하고자 하는 열정적인 연구자를 찾고 있습니다. 관심이 있으시다면 [Contact Us](https://dsl.hanyang.ac.kr/contact)를 통해 연락해 주세요.
