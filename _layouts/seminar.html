@@ -12,11 +12,11 @@ sidebar: year-category-list
       {% assign categories = "" %}
       {% for post in year.items %}
         {% for category  in post.categories %}
-          {% assign categories = categories | append: '"' | append: category | append: '", ' %}
+          {% assign categories = categories | append: category | append: ',' %}
         {% endfor %}
       {% endfor %}
       
-      {% assign categories = categories | split: ', ' | uniq %}
+      {% assign categories = categories | split: ',' | uniq %}
       {% for category in categories %}
         {% if category != "" %}
           <div style="display: flex; align-items: center; gap: 10px;">
