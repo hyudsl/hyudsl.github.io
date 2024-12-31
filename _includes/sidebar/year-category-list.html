@@ -1,0 +1,67 @@
+<div class="common-list">
+  <ul>
+    <li>
+      <a href="{{ url }}">
+        All<span>{{ site.posts.size }}</span>
+      </a>
+    </li>
+
+    {% assign posts_by_year = site.posts | group_by_exp: "post", "post.date | date: '%Y'" %}
+    {% for year in posts_by_year %}
+      <li>
+        <div style="display: flex; align-items: center; gap: 10px;">
+          <button class="category-list-toggle-btn toggle-btn">▶</button>
+          <a href="{{ url }}#h-{{ year.name }}" class="category-list-year-link" style="display: block">
+            {{ year.name }} <span>{{ year.size }}</span>
+          </a>
+        </div>
+
+        <ul class="category-list-toggle-list" style="display: none">
+          {% assign categories = "" %}
+          {% for post in year.items %}
+            {% for category in post.categories %}
+              {% assign categories = categories | append: category | append: ',' %}
+            {% endfor %}
+          {% endfor %}
+
+          {% assign categories = categories | split: ',' | uniq %}
+          {% for category in categories %}
+            {% if category != "" %}
+              {% assign category_count = 0 %}
+              {% for post in year.items %}
+                {% if post.categories contains category %}
+                  {% assign category_count = category_count | plus: 1 %}
+                {% endif %}
+              {% endfor %}
+              <li>
+                <a href="{{ url }}#h-{{ year.name }}{{ category }}">
+                  {{ category | strip }} <span>{{ category_count }}</span>
+                </a>
+              </li>
+            {% endif %}
+          {% endfor %}
+        </ul>
+      </li>
+    {% endfor %}
+  </ul>
+</div>
+
+<script>
+  // 모든 토글 버튼과 리스트를 선택
+  const tagToggleButtons = document.querySelectorAll(".category-list-toggle-btn");
+  const tagToggleLists = document.querySelectorAll(".category-list-toggle-list");
+
+  tagToggleButtons.forEach((button, index) => {
+    button.addEventListener("click", () => {
+      const toggleList = tagToggleLists[index]; // 해당 버튼의 리스트 찾기
+
+      if (toggleList.style.display === "none") {
+        toggleList.style.display = "block"; // 리스트 보이기
+        button.textContent = "▼";
+      } else {
+        toggleList.style.display = "none"; // 리스트 숨기기
+        button.textContent = "▶";
+      }
+    });
+  });
+</script>

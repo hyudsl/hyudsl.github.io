@@ -1,6 +1,6 @@
 ---
 layout: sidebar-framework
-sidebar: year-tag-list
+sidebar: year-category-list
 ---
 
 <div class="page-segments">
@@ -9,24 +9,24 @@ sidebar: year-tag-list
     {% for year in posts_by_year %}
       <h2 id="{{ year.name }}" class="segment-name">{{ year.name }}</h2>
 
-      {% assign tags = "" %}
+      {% assign categories = "" %}
       {% for post in year.items %}
-        {% for tag in post.tags %}
-          {% assign tags = tags | append: tag | append: ',' %}
+        {% for category  in post.categories %}
+          {% assign categories = categories | append: category | append: ',' %}
         {% endfor %}
       {% endfor %}
       
-      {% assign tags = tags | split: ',' | uniq %}
-      {% for tag in tags %}
-        {% if tag != "" %}
+      {% assign categories = categories | split: ',' | uniq %}
+      {% for category in categories %}
+        {% if category != "" %}
           <div style="display: flex; align-items: center; gap: 10px;">
             <button class="seminar-list-toggle-btn toggle-btn">▶</button>
-            <h3 class="t10 b10 year-link" id="{{ year.name }}{{ tag }}" style="display: block">{{ tag }}</h3>
+            <h3 class="t10 b10 year-link" id="{{ year.name }}{{ category }}" style="display: block">{{ category }}</h3>
           </div>
           <ul class="seminar-list-toggle-list" style="display: none; list-style: none">
-            {% assign tag_count = 0 %}
+            {% assign category_count = 0 %}
             {% for post in year.items %}
-              {% if post.tags contains tag %}
+              {% if post.categories contains category %}
                 {% assign item = post%}
                 {%- assign post_item_class = "" -%}
                 {%- if item.top -%}
