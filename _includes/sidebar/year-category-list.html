@@ -20,7 +20,7 @@
           {% assign categories = "" %}
           {% for post in year.items %}
             {% for category in post.categories %}
-            {% assign categories = categories | append: '"' | append: category | append: '",' %}
+              {% assign categories = categories | append: '"' | append: category | append: '", ' %}
             {% endfor %}
           {% endfor %}
 
