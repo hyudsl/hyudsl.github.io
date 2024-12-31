@@ -9,13 +9,14 @@ _posts 폴더에 파일을 생성합니다. \
 파일명의 날짜는 세미나 날짜입니다. \
 파일명 형식: YYYY-MM-DD-title.md
 
-2. 파일에 다음을 추가합니다. (--- 빼먹으면 안되요.)
+2. 파일에 다음을 추가합니다. (--- 빼먹으면 안 되요.)
 ```
 ---
 layout: seminar-post
 title: 'UniIR: Training and Benchmarking Universal Multimodal'
 subtitle: ''
-categories: Computer Vision
+categories:
+    - "Computer Vision"
 tags: [Multimodal, VLM]
 date: 2023-12-02
 pdf_url: 'https://drive.google.com/file/d/1T3F_624bpfymQQxLJ_dqO4TNSjJTjEME/preview'
@@ -26,7 +27,10 @@ pdf_url: 'https://drive.google.com/file/d/1T3F_624bpfymQQxLJ_dqO4TNSjJTjEME/prev
 
 * title: 홈페이지에 표시할 제목
 
-* tags: 논문에 관련된 주제들 최대 2개까지(정해진 것을 쓸 필요는 없지만, 중복 생성을 피하기 위해 홈페이지에서 관련 태그 찾아보고 달아주세요.)
+* categroies: 논문의 카테고리 (NLP, LLM, Computer Vision, Multi-Modal AI 중 하나) \
+  꼭 따옴표로 묶어주세요.
+
+* tags: 논문에 관련된 주제들, 최대 2개까지
 
 * date: 세미나 날짜, 파일명에 쓰인 날짜와 동일하게
 
