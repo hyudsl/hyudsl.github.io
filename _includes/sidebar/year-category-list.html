@@ -24,7 +24,7 @@
             {% endfor %}
           {% endfor %}
 
-          {% assign categories = categories | split: ',' | uniq %}
+          {% assign categories = categories | split: ', ' | uniq %}
           {% for category in categories %}
             {% if category != "" %}
               {% assign category_count = 0 %}
