@@ -44,7 +44,7 @@ https://drive.google.com/file/d/1T3F_624bpfymQQxLJ_dqO4TNSjJTjEME/view?usp=drive
 포스트에 넣고 싶은 내용이 있는 경우, 위 내용 아래에 추가하면 홈페이지에서 pdf 뷰어 아래에 추가됩니다.
 
 
-## Pepole 추가 방법
+## People 추가 방법
 추가할 사람들의 학위 과정에 맞게 _data 폴더에서 아래 파일 중 하나를 수정합니다.
 * people_phd.yml
 * people_master.yml
