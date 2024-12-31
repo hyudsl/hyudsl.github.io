@@ -16,7 +16,7 @@ sidebar: year-category-list
         {% endfor %}
       {% endfor %}
       
-      {% assign categories = categories | split: ',' | uniq %}
+      {% assign categories = categories | split: ', ' | uniq %}
       {% for category in categories %}
         {% if category != "" %}
           <div style="display: flex; align-items: center; gap: 10px;">
