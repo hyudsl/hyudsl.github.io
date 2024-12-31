@@ -11,6 +11,7 @@ permalink: '/NLP.html'
 Natural Language Processing (NLP)는 인간의 언어를 이해하고 해석하며, 이를 통해 기계와 더 자연스럽게 소통할 수 있는 기술을 개발하는 학문입니다. 예를 들어, 우리가 사용하는 스마트폰의 Speech Assistant, Machine Translation 시스템, 그리고 Email Spam Filter 모두 NLP 기술에 기반하고 있습니다. 
 더 나아가 최근 AI 혁명을 주도하고 있는 ChatGPT와 같은 LLM 기술도 자연어처리의 한 분야입니다.
 데이터 사이언스 연구실에서는 이러한 기술을 더욱 발전시키기 위해 흥미로운 연구를 진행하고 있습니다.
+
 **대표적인 자연어처리 연구 주제**
 - Sentiment Analysis: 소셜 미디어나 리뷰에서 사용자 의견을 분석하여 감정을 파악합니다.
 - Machine Translation: 서로 다른 언어를 실시간으로 번역하여 글로벌 소통을 돕습니다.
@@ -24,7 +25,7 @@ Natural Language Processing (NLP)는 인간의 언어를 이해하고 해석하�
 도메인 특화 언어 모델은 전문 분야의 텍스트를 정확히 이해하고 분석하는 데 필수적입니다. 금융, 법률, 특허, 의료 등 다양한 도메인의 텍스트 데이터를 이용하여 연구를 진행합니다. 연구실은 특히 금융 도메인에 특화된 인공지능 연구를 진행하고 있습니다. 
 
 **Financial domain specific**
-그 결과 금융 데이터에 특화된 사전 학습 모델 FiLM을 개발하여 공개하였으며, 이번 연구를 통해 금융 데이터의 다양성이 모델 성능에 미치는 영향을 연구하여 금융 문서 분석의 효율성을 높였습니다.
+금융 데이터에 특화된 사전 학습 모델 FiLM을 개발하여 공개하였으며, 이번 연구를 통해 금융 데이터의 다양성이 모델 성능에 미치는 영향을 연구하여 금융 문서 분석의 효율성을 높였습니다.
 * Jaeyoung Choe, Keonwoong Noh, Nayeon Kim, Seyun Ahn, Woohwan Jung, "Exploring the Impact of Corpus Diversity on Financial Pretrained Language Models" ([EMNLP 2024 findings](https://aclanthology.org/2023.findings-emnlp.138/))
 * 김지훈, 정우환, "대화형 금융정보 검색을 위한 의도 분류", 한국소프트웨어종합학술대회 (KSC2023), 2023
 
