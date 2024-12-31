@@ -4,6 +4,8 @@ title: LLM
 permalink: '/LLM.html'
 ---
 
+# Data Science Lab’s Large Langauge Model (LLM) Research
+
 ## Large Language Model
 
 Large Language Models (LLMs)는 대규모 데이터를 학습하여 자연어를 이해하고 생성하는 능력을 갖춘 인공지능 모델입니다. LLM의 대표적인 예로 GPT4o, o1, Claude 3.5-Sonnet, Gemini 와 같은 모델이 있으며, 이들은 자연어처리(NLP) 분야에서 혁신적인 변화를 이끌고 있습니다. 예를 들어, LLM은 학습 없이도 질문 응답(QA), 언어 번역(Translation), 문서 작성(Document Generation)과 같은 다양한 작업에서 뛰어난 성능을 보여줍니다. 또한, 교육, 의료, 법률 등 여러 산업에서 LLM의 활용 가능성이 빠르게 확대되고 있습니다. 데이터 사이언스 연구실에서는 LLM을 접목시켜서 다양한 분야의 실제 문제를 해결하기위한 연구들을 진행하고 있습니다.
