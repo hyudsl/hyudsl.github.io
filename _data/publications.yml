@@ -74,7 +74,7 @@ domestic:
     - title: '태양광 EL 검사에서의 모듈 단위 라벨을 활용한 셀 단위 불량 탐지'
       author: '<strong>길나영</strong>, <strong>정대윤</strong>, 최우인, 김한진, <strong>정우환</strong>'
       venue: '한국소프트웨어종합학술대회 (KSC2023)'
-    - title: '자연어 생성 모델을 통한 프롬프트 기반 번역 벙렬 데이터 증강'
+    - title: '자연어 생성 모델을 통한 프롬프트 기반 번역 병렬 데이터 증강'
       author: '<strong>오석진</strong>, <strong>이수아</strong>, <strong>정우환</strong>'
       venue: '한국컴퓨터종합학술대회 (KCC2023)'
     - title: '언어생성 모델을 이용한 기업공시 기사 작성'
