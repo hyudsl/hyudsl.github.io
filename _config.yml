@@ -253,6 +253,6 @@ plugins:
   - jekyll-paginate
   - jekyll-spaceship
 
-urlimg: 'https://hyudsl.github.io/homepage/images/'
+urlimg: 'https://hyudsl.github.io/images/'
 
 include: ['_pages']
