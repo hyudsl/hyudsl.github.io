@@ -1,6 +1,6 @@
 # DSLAB (Hanyang University)
 
-### https://hyudsl.github.io/homepage/
+### https://dsl.hanyang.ac.kr/
 
 ## 세미나 포스트 추가 방법
 
