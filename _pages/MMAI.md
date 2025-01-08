@@ -1,6 +1,6 @@
 ---
 layout: interests-post
-title: Multi-modal AI
+title: "Research"
 permalink: '/MMAI.html'
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: interests-post
-title: Natural Language Processing
+title: "Research"
 permalink: '/NLP.html'
 ---
 # Data Science Lab's Natural Language Processing (NLP) Research

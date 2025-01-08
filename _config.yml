@@ -155,6 +155,7 @@ yat:
 # this and add the path to the pages in order as they should show up
 header_pages:
   - index.html
+  - _posts/LLM.md
   - peoples.html
   - publications.html
   - seminar.html

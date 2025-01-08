@@ -1,6 +1,6 @@
 ---
 layout: interests-post
-title: Computer Vision
+title: "Research"
 permalink: '/CV.html'
 ---
 
