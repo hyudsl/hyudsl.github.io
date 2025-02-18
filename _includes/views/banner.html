@@ -26,7 +26,7 @@
   {%- if banner_height -%}
   <style>
     {%- assign num = banner_height | times: 1 -%}
-    {%- assign unit = banner_height | replace_first: num -%}
+    {%- assign unit = banner_height | slice: -2, 2 -%}
     {%- assign banner_min_height = banner_min_height | default: banner_height -%}
     html .page-banner {
       height:  {{ banner_height | times: 0.368 | append: unit }};
@@ -77,21 +77,21 @@
           (function() {
             var video = document.querySelector('.page-banner .page-banner-img > video');
             var videoPlay = function() {
-              video.play().catch (function() {
+              video.play().catch(function() {
                   video.muted = true;
                   video.play();
                 });
             }
 
             video.onloadstart = function() {
-              video.currentTime = {{ banner_start_at }};
-              video.volume = {{ banner_volume }};
+              video.currentTime = {{ banner_start_at | default: 0 }};
+              video.volume = {{ banner_volume | default: 1 }};
               video.muted = (video.volume == 0);
               videoPlay();
             }
 
             video.onended = function() {
-              video.currentTime = {{ banner_start_at }};
+              video.currentTime = {{ banner_start_at | default: 0 }};
               video.volume = 0;
             {%- if banner_loop -%}
               video.play();
@@ -109,8 +109,7 @@
 
         {%- if banner_html -%}
 
-        {%- assign banner_html = 'views/' | append: banner_html -%}
-        {%- include {{ banner_html }} -%}
+        {%- include 'views/banner_file_name' -%}
 
         {%- else -%}
 
@@ -128,4 +127,3 @@
     </div>
   </section>
 {%- endif -%}
-
