@@ -1,24 +1,24 @@
 widget1:
   title: "Natural Language Processing"
   # title_position: 'top'
-  image: banner/banner6.png
+  image: nlp.png
   url: 'https://hyudsl.github.io/NLP.html'
   # text: 'Every good portfolio website has a blog with fresh news, thoughts and develop&shy;ments of your activities. <em>Feeling Responsive</em> offers you a fully functional blog with an archive page to give readers a quick overview of all your posts.'
 widget2:
   title: "Large Language Model"
   # title_position: 'top'
-  image: banner/banner3.png
+  image: llm.png
   url: 'https://hyudsl.github.io/LLM.html'
   # text: '<em>Feeling Responsive</em> is heavily customizable.<br/>1. Language-Support :)<br/>2. Optimized for speed and it&#39;s responsive.<br/>3. Built on <a href="http://foundation.zurb.com/">Foundation Framework</a>.<br/>4. Seven different Headers.<br/>5. Customizable navigation, footer,...'
 widget3:
   title: "Computer Vision"
   # title_position: 'bottom'
-  image: banner/banner4.png
+  image: vision.png
   url: 'https://hyudsl.github.io/CV.html'
   # text: '<em>Feeling Responsive</em> is free and licensed under a MIT License. Make it your own and start building. The code is well-documented and explains you how it works.'
 widget4:
   title: "Multi-Modal AI"
   # title_position: 'bottom'
-  image: banner/banner5.png
+  image: multimodal.png
   url: 'https://hyudsl.github.io/MMAI.html'
   # text: '<em>Feeling Responsive</em> is free and licensed under a MIT License. Make it your own and start building. The code is well-documented and explains you how it works.'
