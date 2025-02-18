@@ -5,8 +5,6 @@ permalink: '/NLP.html'
 ---
 # Data Science Lab's Natural Language Processing (NLP) Research
 
-![Chatbot](./NLP_image.jpg)
-
 ## Introduction to NLP
 Natural Language Processing (NLP)는 인간의 언어를 이해하고 해석하며, 이를 통해 기계와 더 자연스럽게 소통할 수 있는 기술을 개발하는 학문입니다. 예를 들어, 우리가 사용하는 스마트폰의 Speech Assistant, Machine Translation 시스템, 그리고 Email Spam Filter 모두 NLP 기술에 기반하고 있습니다. 
 더 나아가 최근 AI 혁명을 주도하고 있는 ChatGPT와 같은 LLM 기술도 자연어처리의 한 분야입니다.
