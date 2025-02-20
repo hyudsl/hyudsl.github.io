@@ -2,6 +2,7 @@ international:
   2025:
     - title: 'Cardinality Estimation of LIKE Predicate Queries using Deep Learning'
       author: 'Suyong Kwon, Kyuseok Shim, and <strong>Woohwan Jung</strong>'
+      link: "https://dl.acm.org/doi/10.1145/3709670"
       venue: 'ACM International Conference on Management of Data (SIGMOD)'
     - title: 'Improving Detail in Pluralistic Image Inpainting with Feature Dequantization'
       author: '<strong>Kyungri Park</strong> and <strong>Woohwan Jung</strong>'
@@ -52,6 +53,35 @@ international:
       author: 'Daeyoung Hong, <strong>Woohwan Jung</strong>, and Kyuseok Shim'
       link: 'https://ieeexplore.ieee.org/document/9792226'
       venue: 'IEEE Transactions on Knowledge and Data Engineering  (IEEE TKDE)'
+  2021:
+    - title: 'Collecting Geospatial Data with Local Differential Privacy for Personalized Services'
+      author: 'Daeyoung Hong, <strong>Woohwan Jung</strong>, Kyuseok Shim'
+      link: 'https://ieeexplore.ieee.org/document/9458926'
+      venue: 'IEEE International Conference on Data Engineering (ICDE)'
+  2020:
+    - title: 'Dual Supervision Framework for Relation Extraction with Distant Supervision and Human Annotation'
+      author: '<strong>Woohwan Jung</strong>, Kyuseok Shim'
+      link: 'https://aclanthology.org/2020.coling-main.564/'
+      venue: 'International Conference on Computational Linguistics (COLING) <strong>(Outstanding paper)</strong>'
+    - title: 'T-REX: A Topic-Aware Relation Extraction Model'
+      author: '<strong>Woohwan Jung</strong>, Kyuseok Shim'
+      link: 'https://dl.acm.org/doi/10.1145/3340531.3412133'
+      venue: 'ACM Conference on Information and Knowledge Management (CIKM)'
+  2019: 
+    - title: 'TIDY: Publishing a Time Interval Dataset With Differential Privacy'
+      author: '<strong>Woohwan Jung</strong>, Suyong Kwon, Kyuseok Shim'
+      link: 'https://ieeexplore.ieee.org/document/8894389'
+      venue: 'IEEE Transactions on Knowledge and Data Engineering (TKDE)'
+    - title: 'Crowdsourced Truth Discovery in the Presence of Hierarchies for Knowledge Fusion'
+      author: '<strong>Woohwan Jung</strong>, Younghoon Kim, Kyuseok Shim'
+      link: 'https://openproceedings.org/2019/conf/edbt/EDBT19_paper_66.pdf'
+      venue: 'Extending Database Technology (EDBT)'
+  2017:
+    - title: 'Integration of graphs from different data sources using crowdsourcing'
+      author: 'Younghoon Kim, <strong>Woohwan Jung</strong>, Kyuseok Shim'
+      link: 'https://www.sciencedirect.com/science/article/pii/S002002551730018X?via%3Dihub'
+      venue: 'Information Sciences (SCI)'
+    
 domestic:
   2024:
     - title: 'CoCoaH: 문맥과의 관계를 고려한 혐오 발언 탐지'
