@@ -257,3 +257,7 @@ plugins:
 urlimg: 'https://hyudsl.github.io/images/'
 
 include: ['_pages']
+
+sass:
+  style: compressed
+  sass_dir: _sass
