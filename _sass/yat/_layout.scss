@@ -934,14 +934,14 @@ a:visited .post-badges .post-badge.badge-new {
 
 .fixed-ratio-container {
   position: relative;
-  padding-top: 20%; /* 4:3 비율로 설정할 경우 100 / (4/3) */
-  height: 0;
+  // padding-top: 20%; /* 4:3 비율로 설정할 경우 100 / (4/3) */
+  // height: 0;
   overflow: hidden;
   background-size: cover;
 }
 
 .fixed-ratio-container img {
-  position: absolute;
+  // position: absolute;
   top: 0;
   left: 0;
   width: 100%;
