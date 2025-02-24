@@ -1,5 +1,5 @@
 ---
-layout: interests-post
+layout: interests-post-without-list
 title: "Research"
 permalink: '/NLP.html'
 ---
