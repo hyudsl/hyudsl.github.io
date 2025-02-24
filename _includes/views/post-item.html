@@ -9,7 +9,7 @@
 <span>
   <a class="post-link" href="{{ post.url | relative_url }}">
     {% if post.tags %}
-      {{ post.title | escape }}#{{ post.tags | join: ' # ' }}
+      {{ post.title | escape }} #{{ post.tags | join: ' #' }}
     {% else %}
       {{ post.title | escape }}
     {% endif %}
