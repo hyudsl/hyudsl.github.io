@@ -206,7 +206,7 @@ html {
   }
 
   a {
-    $a-color: #124B84;
+    $a-color: $brand-color;
     color: $a-color;
 
     &:hover {
