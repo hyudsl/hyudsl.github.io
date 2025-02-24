@@ -11,6 +11,6 @@
     {{ post.title | escape }}
   </a>
   {% if post.tags %}
-    <span style="color: #ff5100;"> #{{ post.tags | join: ' #' }}</span>
+    <span class="post-title-tag"> #{{ post.tags | join: ' #' }}</span>
   {% endif %}
 </span>
