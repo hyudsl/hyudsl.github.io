@@ -1,0 +1,18 @@
+<div class="common-list">
+  <ul>
+    <li>
+      <a href="{{ url }}">
+        All<span>{{ site.posts.size }}</span>
+      </a>
+    </li>
+
+    {% assign posts_by_year = site.posts | group_by_exp: "post", "post.date | date: '%Y'" %}
+    {% for year in posts_by_year %}
+      <li>
+        <a href="{{ url }}#h-{{ year.name }}" class="tag-list-year-link" style="display: block">
+          {{ year.name }} <span>{{ year.size }}</span>
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+</div>
