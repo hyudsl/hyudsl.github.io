@@ -8,10 +8,9 @@
 <span class="post-meta">{{ post.date | date: date_format }}</span>
 <span>
   <a class="post-link" href="{{ post.url | relative_url }}">
-    {% if post.tags %}
-      {{ post.title | escape }} #{{ post.tags | join: ' #' }}
-    {% else %}
-      {{ post.title | escape }}
-    {% endif %}
+    {{ post.title | escape }}
   </a>
+  {% if post.tags %}
+    <span style="color: #ff5100;"> #{{ post.tags | join: ' #' }}</span>
+  {% endif %}
 </span>
