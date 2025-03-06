@@ -6,5 +6,5 @@ categories:
     - "LLM"
 tags: [Decoding]
 date: 2025-02-25
-pdf_url: 'https://drive.google.com/drive/folders/1rH3VgVShgHoJXFFh3gsSOBEwDWVs0R7v/preview'
+pdf_url: 'https://drive.google.com/file/d/10ix-di0C45GjjQezC_1Y2tHw6-kDskEU/preview'
 ---
