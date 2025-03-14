@@ -6,7 +6,7 @@ international:
       venue: 'ACM International Conference on Management of Data (SIGMOD)'
     - title: 'Improving Detail in Pluralistic Image Inpainting with Feature Dequantization'
       author: '<strong>Kyungri Park</strong> and <strong>Woohwan Jung</strong>'
-      link: 'https://arxiv.org/abs/2412.01046'
+      link: 'https://openaccess.thecvf.com/content/WACV2025/papers/Park_Improving_Detail_in_Pluralistic_Image_Inpainting_with_Feature_Dequantization_WACV_2025_paper.pdf'
       venue: 'IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)'
     - title: "DP-FROST: Differentially Private Fine-tuning of Pre-trained Models with Freezing Model Parameters."
       author: 'Daeyoung Hong, <strong>Woohwan Jung</strong>, and Kyuseok Shim'
