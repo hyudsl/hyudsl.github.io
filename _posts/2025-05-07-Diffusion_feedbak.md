@@ -6,5 +6,5 @@ categories:
     - "MLLM, Diffusion"
 tags: [MLLM, Diffusion]
 date: 2025-05-07
-pdf_url: 'https://drive.google.com/file/d/1PkHxuWuhPcr5464YybZB4jDuI5lIS9Eq/view?usp=sharing/preview'
+pdf_url: 'https://drive.google.com/file/d/1PkHxuWuhPcr5464YybZB4jDuI5lIS9Eq/preview'
 ---
