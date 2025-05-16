@@ -1,5 +1,11 @@
 international:
   2025:
+    - title: 'Hierarchical Retrieval with Evidence Curation for Open-Domain Financial Question Answering on Standardized Documents'
+      author: '<strong>Jaeyoung Choe</strong>, <strong>Jihoon Kim</strong>, and <strong>Woohwan Jung</strong>'
+      venue: 'Annual Meeting of the Association for Computational Linguistics (ACL Findings)'
+    - title: 'Automatic Transmission for LLM Tiers: Optimizing Cost and Accuracy in Large Language Models'
+      author: '<strong>Injae Na</strong>, <strong>Keonwoong Noh</strong>, and <strong>Woohwan Jung</strong>'
+      venue: 'Annual Meeting of the Association for Computational Linguistics (ACL Findings)'
     - title: 'Cardinality Estimation of LIKE Predicate Queries using Deep Learning'
       author: 'Suyong Kwon, Kyuseok Shim, and <strong>Woohwan Jung</strong>'
       link: "https://dl.acm.org/doi/10.1145/3709670"
