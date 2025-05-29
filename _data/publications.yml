@@ -7,6 +7,9 @@ international:
     - title: 'Automatic Transmission for LLM Tiers: Optimizing Cost and Accuracy in Large Language Models'
       author: '<strong>Injae Na</strong>, <strong>Keonwoong Noh</strong>, and <strong>Woohwan Jung</strong>'
       venue: 'Annual Meeting of the Association for Computational Linguistics (ACL Findings)'
+    - title: 'CARE: A Framework for Correcting Numerical Hallucinations in LLM-Generated Financial Texts'
+      author: '<strong>Jian Kim</strong>, and <strong>Woohwan Jung</strong>'
+      venue: 'IEEE Conference on Artificial Intelligence (CAI)'
     - title: 'Cardinality Estimation of LIKE Predicate Queries using Deep Learning'
       author: 'Suyong Kwon, Kyuseok Shim, and <strong>Woohwan Jung</strong>'
       link: "https://dl.acm.org/doi/10.1145/3709670"
@@ -18,7 +21,7 @@ international:
     - title: "DP-FROST: Differentially Private Fine-tuning of Pre-trained Models with Freezing Model Parameters."
       author: 'Daeyoung Hong, <strong>Woohwan Jung</strong>, and Kyuseok Shim'
       link: "https://aclanthology.org/2025.coling-main.465/"
-      venue: "International Conference on Computational Linguistics (COLING), 2025"
+      venue: "International Conference on Computational Linguistics (COLING)"
     - title: 'Machine learning-based real-time prediction of duodenal stump leakage from gastrectomy in gastric cancer patients'
       author: 'Jae Hun Chung, Yushin Kim, Dongjun Lee, Dongwon Lim, Sun-Hwi Hwang, Si-Hak Lee, <strong>Woohwan Jung</strong>'
       link: 'https://www.frontiersin.org/journals/surgery/articles/10.3389/fsurg.2025.1550990/full'
@@ -40,7 +43,7 @@ international:
     - title: 'Improving Domain-Specific ASR with LLM-Generated Contextual Descriptions'
       author: '<strong>Jiwon Suh</strong>, <strong>Injae Na</strong>, and <strong>Woohwan Jung</strong>'
       link: 'https://www.isca-archive.org/interspeech_2024/suh24_interspeech.html'
-      venue: 'In Proc. Interspeech 2024'
+      venue: 'In Proc. Interspeech'
   2023:
     - title: 'Enhancing Low-Resource Fine-Grained Named Entity Recognition by Leveraging Coarse-Grained Datasets'
       author: '<strong>Su Ah Lee</strong>, <strong>Seokjin Oh</strong>, and <strong>Woohwan Jung</strong>'
