@@ -1,13 +1,3 @@
-- name: 'Chulhoon Yoon'
-  email: 'ychh0914@hanyang.ac.kr'
-  interests: 'Natural Language Processing'
-  image: people/chulhoon.jpg
-
-- name: 'Jeongwoo Eum'
-  email: 'coop1964@hanyang.ac.kr'
-  interests: 'Natural Language Processing'
-  image: people/jungwoo.png
-
 - name: 'Kyungjin Min'
   email: 'gulmok1217@hanyang.ac.kr'
   interests: 'Natural Language Processing'
