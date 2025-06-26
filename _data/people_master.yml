@@ -17,3 +17,13 @@
   email: 'xcvbn77@hanyang.ac.kr'
   interests: 'Natural Language Processing'
   image: people/hojin.jpg
+
+- name: 'Chulhoon Yoon'
+  email: 'ychh0914@hanyang.ac.kr'
+  interests: 'Natural Language Processing'
+  image: people/chulhoon.jpg
+
+- name: 'Jeongwoo Eum'
+  email: 'coop1964@hanyang.ac.kr'
+  interests: 'Natural Language Processing'
+  image: people/jungwoo.png
