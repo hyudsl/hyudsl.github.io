@@ -6,5 +6,5 @@ categories:
     - "Computer Vision"
 tags: [Multimodal, VLM]
 date: 2025-06-30
-pdf_url: 'https://drive.google.com/file/d/1T3F_624bpfymQQxLJ_dqO4TNSjJTjEME/preview'
+pdf_url: 'https://drive.google.com/file/d/1vdIr6mNSXCRuy1wtHF0Z4W6ukiomwa7k/preview'
 ---
