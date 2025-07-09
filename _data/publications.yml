@@ -10,6 +10,7 @@ international:
       venue: 'Annual Meeting of the Association for Computational Linguistics (ACL Findings)'
     - title: 'CARE: A Framework for Correcting Numerical Hallucinations in LLM-Generated Financial Texts'
       author: '<strong>Jian Kim</strong>, and <strong>Woohwan Jung</strong>'
+      link: "https://ieeexplore.ieee.org/document/11050486"
       venue: 'IEEE Conference on Artificial Intelligence (CAI)'
     - title: 'Cardinality Estimation of LIKE Predicate Queries using Deep Learning'
       author: 'Suyong Kwon, Kyuseok Shim, and <strong>Woohwan Jung</strong>'
@@ -29,12 +30,15 @@ international:
       venue: 'Frontiers in Surgery'
     - title: 'Semi-supervised Learning for Photovoltaic Cell Defect Detection Using Module and Cell Level Labels'
       author: '<strong>Nayoung Gil</strong>, <strong>Kyungri Park</strong>, <strong>Dae-yun Jeong</strong>, and <strong>Woohwan Jung</strong>'
+      link: "https://ieeexplore.ieee.org/document/10879677"
       venue: 'International Conference on Electronics, Information, and Communication (ICEIC)'
     - title: 'Improving Messenger Phishing Detection Using Heterogeneous Phishing Data'
       author: '<strong>Seokjin Oh</strong>, <strong>Keonwoong Noh</strong>, Sunyub Kim, Dohyung An, and <strong>Woohwan Jung</strong>'
+      link: "https://ieeexplore.ieee.org/document/10879662"
       venue: 'International Conference on Electronics, Information, and Communication (ICEIC)'
     - title: 'Data Augmentation for Messenger Phishing Detection Using Large Language Models'
       author: '<strong>Keonwoong Noh</strong>, <strong>Seokjin Oh</strong>, Sunyub Kim, Dohyung An, and <strong>Woohwan Jung</strong>'
+      link: "https://ieeexplore.ieee.org/abstract/document/10879623"
       venue: 'International Conference on Electronics, Information, and Communication (ICEIC)'
   2024:
     - title: 'Beyond Reference: Evaluating High Quality Translations Better than Human References'
