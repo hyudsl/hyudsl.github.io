@@ -2,11 +2,11 @@ international:
   2025:
     - title: 'Hierarchical Retrieval with Evidence Curation for Open-Domain Financial Question Answering on Standardized Documents'
       author: '<strong>Jaeyoung Choe</strong>, <strong>Jihoon Kim</strong>, and <strong>Woohwan Jung</strong>'
-      link: "https://arxiv.org/abs/2505.20368"
+      link: "https://aclanthology.org/2025.findings-acl.855/"
       venue: 'Annual Meeting of the Association for Computational Linguistics (ACL Findings)'
     - title: 'Automatic Transmission for LLM Tiers: Optimizing Cost and Accuracy in Large Language Models'
       author: '<strong>Injae Na</strong>, <strong>Keonwoong Noh</strong>, and <strong>Woohwan Jung</strong>'
-      link: "https://arxiv.org/abs/2505.20921"
+      link: "https://aclanthology.org/2025.findings-acl.873/"
       venue: 'Annual Meeting of the Association for Computational Linguistics (ACL Findings)'
     - title: 'CARE: A Framework for Correcting Numerical Hallucinations in LLM-Generated Financial Texts'
       author: '<strong>Jian Kim</strong>, and <strong>Woohwan Jung</strong>'
