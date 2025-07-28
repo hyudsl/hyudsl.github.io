@@ -6,5 +6,5 @@ categories:
     - "NLP"
 tags: [Retriever, Negative Sampling]
 date: 2025-07-29
-pdf_url: 'https://drive.google.com/file/d/1T3F_624bpfymQQxLJ_dqO4TNSjJTjEME/preview'
+pdf_url: 'https://drive.google.com/file/d/1vyqhsXBxjtgRyxZfsV9BpTnoXN6viUKb/preview'
 ---
